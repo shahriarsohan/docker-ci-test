@@ -15,6 +15,7 @@ deploy:
   env: "Dockerproductiontest1-env"
   bucket_name: "elasticbeanstalk-ap-south-1-806822280125"
   bucket_path: "docker-production-test1"
+  edge: true
   on:
     branch: main
   access_key_id: $AWS_ACCESS_KEY
