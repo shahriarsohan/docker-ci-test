@@ -6,4 +6,4 @@ before_install:
   - docker build -t sohan0077/docker-test-ci -f Dockerfile.dev .
 
 script:
-  - docker run sohan0077/docker-test-ci npm run test -- --coverage
+  - docker run sohan0077/docker-test-ci npm run test -- --coverage --watchAll=false
