@@ -14,7 +14,6 @@ deploy:
   app: "docker-production-test"
   env: "Dockerproductiontest-env"
   bucket_name: "elasticbeanstalk-ap-southeast-1-806822280125"
-  bucket_path: "docker-production-test"
   on:
     branch: main
   access_key_id: "$ACCESS_KEY"
